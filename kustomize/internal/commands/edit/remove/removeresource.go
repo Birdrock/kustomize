@@ -22,7 +22,7 @@ func newCmdRemoveResource(fSys filesys.FileSystem) *cobra.Command {
 	var o removeResourceOptions
 
 	cmd := &cobra.Command{
-		Use:   "resource",
+		Use: "resource",
 		Short: "Removes one or more resource file paths from " +
 			pgmconfig.DefaultKustomizationFileName(),
 		Example: `

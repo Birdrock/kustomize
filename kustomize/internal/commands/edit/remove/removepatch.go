@@ -24,7 +24,7 @@ func newCmdRemovePatch(fSys filesys.FileSystem) *cobra.Command {
 	var o removePatchOptions
 
 	cmd := &cobra.Command{
-		Use:   "patch",
+		Use: "patch",
 		Short: "Removes one or more patches from " +
 			pgmconfig.DefaultKustomizationFileName(),
 		Example: `
